@@ -166,7 +166,7 @@ body {
    display:block;
    margin:0;
    padding:.6em .5em .4em;
-   font-size:1em;
+   font-size:1.3em;
    line-height:1em;
    background:white;
    text-decoration:none;
@@ -206,7 +206,7 @@ body {
 #centeredmenu ul li.active li a,
 #centeredmenu ul li:hover ul li a,
 #centeredmenu ul li.hover ul li a { /* This line is required for IE 6 and below */
-   font-size:.8em;
+   font-size:1em;
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:white;
    color:gray;
