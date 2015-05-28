@@ -201,6 +201,7 @@ body {
    clear:left;
    width:100%;
 }
+/*Submenu items when they can be seen, not when hovered over them*/
 #centeredmenu ul ul li a,
 #centeredmenu ul li.active li a,
 #centeredmenu ul li:hover ul li a,
@@ -212,12 +213,13 @@ body {
    line-height:1.4em; /* overwrite line-height value from top menu */
    border-bottom:1px solid #ddd; /* sub menu item horizontal lines */
 }
+/*Submenu items when hovered over them*/
 #centeredmenu ul ul li a:hover,
 #centeredmenu ul li.active ul li a:hover,
 #centeredmenu ul li:hover ul li a:hover,
 #centeredmenu ul li.hover ul li a:hover { /* This line is required for IE 6 and below */
    background:white; /* Sub menu items background colour */
-   color:gray;
+   color:black;
 }
 
 /* Flip the last submenu so it stays within the page */
