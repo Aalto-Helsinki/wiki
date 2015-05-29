@@ -40,10 +40,16 @@ body {
   vertical-align: top;
 }
 .cover-container {
+  margin-top: 200px;
   margin-right: auto;
   margin-left: auto;
 }
-
+.inner-container {
+  margin-top: 100px;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: left;
+}
 /* Padding for spacing */
 .inner {
   padding: 30px;
@@ -71,6 +77,7 @@ body {
    clear:both;
    float:left;
    margin-top:100; 
+   margin-bottom: 100;
    margin-left: 25%;
    padding:0;
    border-top:2px solid #000; /* black line above menu */
@@ -177,11 +184,8 @@ body {
  */
 
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
+    /* Pull out the header and footer */
+  
   .mastfoot {
     position: fixed;
     bottom: 0;

@@ -52,3 +52,10 @@
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
+
+    /* Pull out the header and footer */
+  
+.masthead {
+    position: fixed;
+    top: 0;
+  }
